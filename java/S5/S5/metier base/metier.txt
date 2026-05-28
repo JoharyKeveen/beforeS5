@@ -1,0 +1,87 @@
+CLASS :
+	SERVLET :
+		servlet personne_servlet :
+			dopost : 
+				1) manao getParameter , 
+				2) attribuena le Class personne sy Employer 
+				3) throw exception rehefa tsy ampy taona le pesonne
+				4) inserena rehefa ampy
+				
+	MODEL :
+		Personne :
+			attribue
+				id : int
+				nom : string
+				prenom : string
+				genre : int -> foreign key genres.id
+				date naissance : date
+				id niveau etude : int foreign key niveau_etude.id
+				
+			fonction 
+				getters setters
+				boolean ampitaonave() -> return false raha mbola tsy ampy taona
+				inserte ao @ base table personne
+	
+		Employer :
+			attribue
+				Personne personne
+				date_embauche : date
+			fonction 
+				getters setters
+				inserte ao @ base table employer
+			
+		Genre :
+			attribue
+				id
+				nom
+				select ao @ base table genre
+				
+		Niveau_Etude :
+			attribue
+				id
+				nom 
+				rang : int
+			fonction
+				getters setters
+				select ao @ base
+				inserte ao @ base
+				
+		Specialiter :
+			attribue
+				id  : int
+				nom
+			fonction
+				select ao @ base
+				inserte ao @ base
+
+		Personne_specialiter 
+			attribue
+				id_personne : int
+				id_specialiter : int 
+			fonction
+				select ao @ base
+				inserte ao @ base			
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

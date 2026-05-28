@@ -1,0 +1,59 @@
+TOAVINA
+Creer classe
+
+-----------------------------DISO--------------------------------
+Specialite
+int id
+String nom 
+-----------------------------DISO--------------------------------
+
+getters,setters
+contructeur vide
+constructeur(id,nom)
+
+Diplome
+int id
+String nom
+
+getters,setters
+contructeur vide
+constructeur(id,nom)
+
+Employee
+int id 
+String nom
+String prenom
+int idgenre
+Date datedenaissance
+int iddiplome
+
+getters,setters
+constructeur vide
+constructeur(id,nom,prenom,idgenre,datedenaissance)
+
+JOHARY
+
+Creer Classe Fonction.java
+Dans Fonction.java, faire fonctions
+
+-boolean majeurOrNot(datenaissance)
+Instruction: 
+instancier res = false
+get diff = difference entre cette annee et la date de naissance
+si diff>=18 => res = true
+retourne res
+---------vita-----------------
+
+-void insertionEmploye(nom,prenom,idgenre,datedenaissance,iddiplome)
+---------vita-----------------
+-void insertionSpecialite(idemployee,idspecialite)
+
+Instruction: Fonction a utiliser a la fin
+
+-ArrayList<Personne> getAllEmploye()
+---------vita-----------------
+
+-ArrayList<Diplome> getAllDiplome()
+---------vita-----------------
+
+-ArrayList<> getAllSpecialite()

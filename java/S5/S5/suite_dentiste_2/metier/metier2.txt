@@ -1,0 +1,34 @@
+
+Classe
+	Service_specialiter
+		id_service
+		id_post
+		nom
+		salaire
+	
+	Service 
+		id
+		nom
+
+SERVLET
+	
+	CalculeMasokarena
+		fonction:
+			doPost(){
+				var = getparameter("service")
+				int var2 = getparameter("durree")
+				Service_specialiter [] = select dans la view service_post_requise si id_service = var
+				boucle : Service_specialiter.salaire * var2
+				int ret = somme salaire tableau Service_specialiter[]
+				request.setAttribut("value",ret);
+				dispatche dans page resultat.jsp
+			}	
+	AfficheSpecialiterRequise
+		fonction:
+			doPost(){
+				Service [] var = select tous les service
+				request.setAttribut("services",ret);
+				dispatche dans page choixservice.jsp				
+			}
+		
+		

@@ -1,0 +1,23 @@
+<?php
+    session_start();
+    $chiffre=56;
+    $_SESSION['id']=$_GET['id'];
+    $_SESSION['submit']=$_GET['submit'];
+    $session=$_SESSION['submit'];
+    if(isset($_SESSION['id'])==true)
+    {
+        $id=$_SESSION['id'];
+        if($chiffre<$id)
+        {
+            header('location:index.php?petit');
+        }
+        if($chiffre>$id)
+        {
+            header('location:index.php?grand');
+        }
+        if($chiffre==$id)
+        {
+            header('location:index.php?egal');
+        }
+    }
+?>

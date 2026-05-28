@@ -1,0 +1,34 @@
+body{
+	background-color: gray;
+}
+#nav
+{
+	display:flex;
+	justify-content: space-between;
+	border: solid;
+	height:45%;
+	background-color: #090909;
+	align-items: center;
+	border-radius: 20px;
+	font-size: 20px;
+}
+#nav span {
+	display:inline-block;
+}
+#nav a{
+	text-decoration: none;
+	color: yellow;
+}
+#nav input{
+	border-radius: 15px;
+}
+#nav button{
+	background-color: red;
+	color: black;
+	border: none;
+	border-radius: 15px;
+	width: 100%;
+	height: 30px;
+	margin-right: 100px;
+	text-align: center;
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="true">
+    <servlet>
+      <servlet-name>Tesp</servlet-name>
+      <servlet-class>Tesp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Tesp</servlet-name>
+        <url-pattern>/Tesp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>Tesp2</servlet-name>
+      <servlet-class>Tesp2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Tesp2</servlet-name>
+        <url-pattern>/Tesp2</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>Tesp3</servlet-name>
+      <servlet-class>Tesp3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Tesp3</servlet-name>
+        <url-pattern>/Tesp3</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>Tesp4</servlet-name>
+      <servlet-class>Tesp4</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Tesp4</servlet-name>
+        <url-pattern>/Tesp4</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>Tesp5</servlet-name>
+      <servlet-class>Tesp5</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Tesp5</servlet-name>
+        <url-pattern>/Tesp5</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>Pizzas</servlet-name>
+      <servlet-class>Pizzas</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Pizzas</servlet-name>
+        <url-pattern>/Pizzas</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>Pizzac</servlet-name>
+      <servlet-class>Pizzac</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Pizzac</servlet-name>
+        <url-pattern>/Pizzac</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+      <servlet-name>Parzza</servlet-name>
+      <servlet-class>Parzza</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Parzza</servlet-name>
+        <url-pattern>/Parzza</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>Cook</servlet-name>
+      <servlet-class>Cook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Cook</servlet-name>
+        <url-pattern>/Cook</url-pattern>
+    </servlet-mapping>
+		
+	<servlet>
+      <servlet-name>Sessioncook</servlet-name>
+      <servlet-class>Sessioncook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Sessioncook</servlet-name>
+        <url-pattern>/Sessioncook</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>Emetteur</servlet-name>
+      <servlet-class>Emetteur</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Emetteur</servlet-name>
+        <url-pattern>/Emetteur</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>Recepteur</servlet-name>
+      <servlet-class>Recepteur</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Recepteur</servlet-name>
+        <url-pattern>/Recepteur</url-pattern>
+    </servlet-mapping>
+</web-app>

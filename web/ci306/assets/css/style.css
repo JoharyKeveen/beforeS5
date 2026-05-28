@@ -1,0 +1,18 @@
+.icon{
+    font-size: 50px;
+    color: rgb(255, 153, 0);
+    float: left;
+    margin-left: -100px;
+    margin-top: -10px;
+}
+
+.container ul{
+    margin-left: 100px;
+} 
+
+.container li{
+    padding: 7px;
+}
+
+
+    

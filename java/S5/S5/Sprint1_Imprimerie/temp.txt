@@ -1,0 +1,7 @@
+	-TypeFormat (exemple: A4,A3,….)
+		-TypePapier (exemple: velin,pelure,couche,…)
+		-TypeAutre (grammage,noir-blanc,couleur,recto,recto-verso)
+		-PrixFormat
+		-PrixPapier
+		-autrePrix
+	

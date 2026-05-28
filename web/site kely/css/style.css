@@ -1,0 +1,34 @@
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../image/bf82f6956a32819af48c2572243e8286.jpg");
+}
+#title{
+
+    
+    border: 1px solid whitesmoke;
+    width: 40vw;
+    height: auto;
+    color: brown;
+}
+.title{
+    margin: 0 30vw;
+    padding: 0vw;
+}
+p{
+    font-size: 2vw;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.img{
+    background-image: url("../image/bf82f6956a32819af48c2572243e8286.jpg") ;
+}
+.img > p{
+    color: whitesmoke;
+}

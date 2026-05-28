@@ -1,0 +1,254 @@
+*{
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+* a{
+  color: white;
+}
+
+* a:hover{
+  color: rgb(167, 107, 17);
+  font-size: x-large;
+}
+
+                                    /*--------------------------------------- Header  -----------------------------------------*/
+header{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+header a{
+  color: white;
+}
+
+/*-------------- VISIT MENABE --------------*/
+#div_logo{
+  width: max-content;
+  margin: auto;
+}
+#logo{
+  display: flex;
+  font-weight: bold;
+  font-size: xx-large;
+  margin: auto;
+}
+#visit{
+  color: rgb(167, 107, 17);
+;
+}
+#menabe{
+color: white;
+padding-left: 2%;
+}
+
+/*-------------- menuH --------------*/
+#menuH{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.element_menuH{
+  text-align: center;
+  margin: auto;
+}
+
+/*-------------- Bar de recherche et login  --------------*/
+#bar_de_recherche-et-login{
+  display: flex;
+  margin: auto;
+}
+#bar_de_recherche{
+  width: max-content;
+  display: flex;
+  margin: auto;
+}
+#loop{
+  padding-left: 2%;
+}
+#login{
+  padding-left: 10%;
+  margin: auto;
+}
+
+                                          /*------------------------------------------ body home  ---------------------------------------------*/
+body{
+  background-color: rgb(56, 35, 20);
+}
+
+section {
+  min-height: 600px ;
+}
+
+#home_content{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+/*-------------- section's Navigation   --------------*/
+#nav_content{
+  display: flex;
+  justify-content: space-between;
+  width: 19%;
+  height: max-content;
+  border: black 1px solid;
+  border-radius: 20px;
+  text-align: center;
+}
+#nav_content {
+  color: white;
+}
+
+#sites{
+  width: 20%;
+}
+#aside_sites{
+  width: 79%;
+}
+.element_menuV{
+  width: 100%;
+}
+
+/*-------------- setion's article   --------------*/
+#article_home{
+  border: black 1px solid;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.content_home{
+  width: 45%;
+  height: auto;
+  border: solid black 1px;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.image{
+  border: solid rgb(0, 0, 0) 1px;
+  width: 40%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.description{
+  border: solid rgb(0, 0, 0) 1px;
+  width: 40%;
+}
+.prix{
+  border: solid rgb(0, 0, 0) 1px;
+  width: 10%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/*-----------Gallery------------*/
+#gallery_body2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+#gallery_menu2{
+  width: 15%;
+  height: 400px;
+  color: white;
+}
+#gallery_content2{
+  width: 83%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(auto-fill,200px);
+  grid-gap: 10px;
+}
+.IMG_gallery{
+  width: 100%;
+  height: 100%;
+}
+.IMG_gallery img{
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+.big{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+#left{
+  width: 10%;
+  text-align: left;
+  font-size: 7em;
+  padding-top: 14%;
+}
+#left a:hover{
+  font-size: 1em;
+}
+i{
+  color: white;
+}
+#right{
+  width: 10%;
+
+  text-align: right;
+  font-size: 7em;
+  padding-top: 14%;
+}
+#right a:hover{
+  font-size: 1em;
+}
+.image2{
+  width: 75%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+}
+
+/*-----------------Login (page)-------------------------*/
+#login_content{
+  border: solid 1px white;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 35%;
+  margin: auto;
+  font-size: x-large;
+  border-radius: 20px;
+}
+#login_content input{
+  font-size: x-large;
+}
+#login_content i{
+  font-size: 6em;
+}
+
+
+/*-----------------Footer-----------------*/
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+
+}
+
+footer a{
+  color: white;
+}
+
+#div_footer_pI{
+  width: 30%;
+
+}
+#div_footer_pII{
+  width: 33%;
+}
+#div_footer_pIII{
+  width: 30%;
+}

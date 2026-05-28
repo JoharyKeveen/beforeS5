@@ -1,0 +1,15 @@
+<?php
+    session_start();
+    if(isset($_SESSION['count'])==false)
+    {
+        $_SESSION['count']=0;
+        $_SESSION['prod']=array();
+    }
+    $p=$_SESSION['prod'];
+    $p[$_SESSION['count']]['nom']=$_GET['nom'];
+    $p[$_SESSION['count']]['vola']=$_GET['vola'];
+    $p[$_SESSION['count']]['sary']=$_GET['sary'];
+    $_SESSION['count']++;
+    $_SESSION['prod']=$p;
+    header('location:index.php');
+?>

@@ -1,0 +1,27 @@
+ echo (rand(0,7)); 
+
+   header("location:../page/home.php");
+
+////////////////////////////////////////
+    <?php
+    $requete2=$bdd->query("SELECT poules from Equipe group by Poules");
+    $requete2->setFetchMode(PDO::FETCH_OBJ); 
+    
+    while ($sa=$requete2->fetch()) <? {
+        $requete=$bdd->query("SELECT nom FROM Equipe WHERE POULES = '"<?php echo $st->poules; ?>"' ");         
+        $requete->setFetchMode(PDO::FETCH_OBJ); 
+        <?php }?>
+    
+    ?>
+//////////////////////////////////////
+
+?php for($i=0; $i<count(makapoule()); $i++) { ?>
+        
+    <div id="d">
+        <h2>Groupe :<?php echo makapoule()[$i]; ?> </h2>
+
+            <?php for($e=0;$e<count(affichage('A')); $e++) {?>
+                <p><?php echo affichage(makapoule()[$i])[$e]; ?> </p>
+            <?php } ?>
+    </div>
+    <?php } ?>

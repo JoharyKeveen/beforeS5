@@ -1,0 +1,11 @@
+table{border-collapse: collapse;}
+#div1{
+    margin-right: 50%;
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+#div2{
+    margin-left: 50%;
+    width: 50%;
+}

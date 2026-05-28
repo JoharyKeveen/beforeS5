@@ -1,0 +1,191 @@
+#call{
+    display: flex;
+    justify-content: space-around;
+    width: 13%;
+}
+
+#entete{
+    display: flex;
+    justify-content: space-around;
+}
+#es{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+#es div:hover{
+    color: rgb(127, 186, 50);
+}
+.green{
+    color: rgb(127, 186, 50);
+}
+.greenf{
+    background-color: rgb(127, 186, 50);
+}
+#skk{
+    width:max-content;
+    background-color: rgb(245, 247, 249);
+}
+#skk span{
+    font-size: x-small;
+}
+#but1{
+    display: flex;
+    justify-content: space-between;
+}
+#but2{
+    display: flex;
+    justify-content: space-around;
+}
+#pied{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 4.5%;
+}
+#ray{
+    width: 18%;
+}
+select{
+    border: none;
+}
+#chevron{
+    font-size: 50%;
+    float: right;
+    margin-top: 3%;
+}
+#menu{
+    width: 20%;
+    height: 30%;
+}
+#gauche{
+    width: 70%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(127, 186, 50);
+}
+#mm div{
+    margin-top: 1%;
+}
+#choice{
+    display: flex;
+    justify-content: space-around;
+}
+.s1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.kely{
+    border: solid 3px rgb(245, 247, 249);
+    background-color: white;
+    width: 24%;
+    text-align: center;
+}
+.images{
+    height: 70%;
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.price{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+#produit{
+    background-color: rgb(245, 247, 249) ;
+    width: 100%;
+}
+.tele{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+}
+.fotsy{
+    color: white;
+    margin-top: 15%;
+}
+.soratrakely{
+    font-size:7px;
+}
+.leobe{
+    font-size:x-small ;
+}
+#paypal{
+    -webkit-text-fill-color: white;
+    color: blue;
+    -webkit-text-stroke-width: 1px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+.g{
+    color: #7fba32;
+    font-size: 300%;
+}
+.roc{
+    border-top: solid 4px black;
+    font-size: xx-large;
+}
+.ery{
+    border-top: solid 4px #7fba32;
+    font-size: xx-large;
+}
+#sale{
+    background-color: black;
+    color: white;
+    float: right;
+    width: max-content;
+}
+#price{
+    color: rgb(127, 186, 50);
+}
+#ATC{
+    border: solid 1px black;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 5px;    
+}
+#entanaLAFO{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.soratraMP{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+.saryMP{
+    width: 10%;
+}
+#MG{
+    width: 30%;
+}
+#MG div{
+    float: right;
+}
+#decon{
+    width: max-content;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5px;
+    background-color: rgb(127, 186, 50);
+    color: black;
+}
+#decon a:hover{
+    color: black;
+}
+#MPMP{
+    padding-left: 6%;
+}

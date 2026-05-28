@@ -1,0 +1,30 @@
+genres
+	id : int
+	genre : string
+
+personne
+	id : int
+	nom : string
+	prenom : string
+	genre : int -> foreign key genres.id
+	date naissance : date
+	id niveau etude : int foreign key niveau_etude.id
+	
+
+employer 
+	id : int
+	id_personne : int -> foreign key personne.id
+	date embauche : date
+	
+niveau_etude :
+	id : int
+	nom : int
+	rang : int
+
+specialiter :
+	id : int
+	nom : int
+	
+personne_specialiter : 
+	id_personne : int -> foreign key personne.id
+	id_specialiter : int -> foreign key specialiter.id

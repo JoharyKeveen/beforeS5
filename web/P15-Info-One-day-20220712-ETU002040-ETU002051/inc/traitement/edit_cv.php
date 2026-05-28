@@ -1,0 +1,13 @@
+<?php 
+	session_start();
+	include('../function/connexion.php');
+	require_once('../function/function.php');
+	$bdd=connex_bdd();
+    upload();
+    $choice=array();
+    $choice[1]=$_POST['P1'];
+    $choice[2]=$_POST['P2'];
+    $choice[3]=$_POST['P3'];
+    update_pic($_POST['Nom'],$_POST['Prenom'],$_POST['Date_de_naissance'],fichier(),$_POST['id_num'],$choice);
+    header('location:../../pages/accueil.php');
+?>

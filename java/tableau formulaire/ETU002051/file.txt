@@ -1,0 +1,16 @@
+ETU002051;;false;;Toamasina;; lava be
+ETU002051;;false;;Antananarivo;; lava be
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol
+ETU002051;;true;;Antananarivo;; llol

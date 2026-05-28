@@ -1,0 +1,4 @@
+RACE    NOM    AGE    
+berger    rex    2    
+doberman    bolt    3    
+berger    roxy    1    

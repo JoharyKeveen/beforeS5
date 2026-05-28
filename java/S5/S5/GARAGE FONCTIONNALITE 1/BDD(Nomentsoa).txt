@@ -1,0 +1,41 @@
+COTE BDD:
+
+table genre:
+id SERIAL
+nom VARCHAR(40)
+
+table diplome:
+id SERIAL PRIMARY KEY
+nom VARCHAR
+
+table specialite:
+id SERIAL PRIMARY KEY
+nom VARCHAR
+
+table employe:
+id SERIAL PRIMARY KEY
+nom VARCHAR(40)
+prenom VARCHAR(40)
+idgenre INT
+date de naissance DATE
+iddiplome INT
+FOREIGN KEY(iddiplome) -> table DIPLOME
+FOREIGN KEY(idgenre) -> table GENRE
+
+table lienspecialiteemploye
+idemploye INT
+idspecialite INT
+FOREIGN KEY(idemploye) -> table EMPLOYE
+FOREIGN KEY(idspecialite) -> table SPECIALITE
+
+INSERTION donnees:
+genre: Homme, Femme
+diplome: BEPC, BACC, LICENSE, MASTER
+specialite: Mecanicien, Mecanicien Pro, Mecanicien Medium
+
+inserer une personne pour tester la vue en bas 
+
+VUES:
+tables a utiliser (employee,)
+Nom vue: v_specialite
+Retourne toute les specialites where idemploye=?

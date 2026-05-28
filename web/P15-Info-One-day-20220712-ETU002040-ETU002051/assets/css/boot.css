@@ -1,0 +1,15 @@
+#hf {
+	background-color: gray;
+}
+#nav{
+	background-color: black;
+	color: lightgray;
+}
+#nav li a{
+	text-decoration: none;
+}
+button{
+	width: 290px;
+	border-radius: 10px ;
+	color:white;
+}

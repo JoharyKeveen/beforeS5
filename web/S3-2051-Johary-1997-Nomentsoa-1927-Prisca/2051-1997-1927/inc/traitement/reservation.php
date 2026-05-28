@@ -1,0 +1,14 @@
+<?php
+        session_start();
+        include('../function/function.php');
+        $id=$_GET['trano'];
+        $arriver=$_POST['arriver'];
+        $depart=$_POST['depart'];
+        if(is_between($arriver,$depart,$id)==false)
+        {
+            reserver($_SESSION['id'],$id,$arriver,$depart);
+            header('location:../../pages/detail.php?id='.$id);
+            return;
+        }
+        header('location:../../pages/detail.php?error=404&&id='.$id);
+?>

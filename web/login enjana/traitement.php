@@ -1,0 +1,19 @@
+<?php
+session_start();
+include("data.php");
+$_SESSION['ID']=$_GET['ID'];
+$ID=$_SESSION['ID'];
+$_SESSION['password']=$_GET['password'];
+$password=$_SESSION['password'];
+for($i=0;$i<4;$i++)
+{
+    if($login[$i]['login']==$ID && $login[$i]['password']==$password) 
+        {
+        header('location:succes.php');
+        break;
+        }
+    else{
+        header('location:index.php?error');
+        }
+}
+?>

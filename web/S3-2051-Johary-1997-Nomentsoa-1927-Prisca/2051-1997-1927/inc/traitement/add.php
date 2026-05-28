@@ -1,0 +1,10 @@
+<?php
+    include('../function/function.php');
+    $type=$_POST['type'];
+    $nb_chambre=$_POST['nb_chambre'];
+    $loyer=$_POST['loyer'];
+    $quartier=$_POST['quartier'];
+    $desc=$_POST['desc'];
+    add_trano($type,$nb_chambre,$loyer,$quartier,$desc);
+    header('location:../../pages/admin.php');
+?>

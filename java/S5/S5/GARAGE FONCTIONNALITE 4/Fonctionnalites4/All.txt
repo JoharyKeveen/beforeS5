@@ -1,0 +1,22 @@
+Marge Beneficiaire configurable par service
+
+But Benefice par service
+
+NOMENTSOA
+Cote Base de donne:
+Modification table service, ajout champ double (margebeneficiaire)
+
+insertion donnee
+service1=marge(20)
+service1=marge(30)
+service1=marge(10)
+
+TOAVINA && JOHARY
+Cote Back:
+fonction getMarge(idservice) retourne margebeneficiaire by id idservice
+changement fonction calculRendu et remplacer la variable marge par getMarge(idservice) 
+
+PRISCA
+Cote Affichage:
+Drop down liste service
+usage fonction getMarge(idservice)

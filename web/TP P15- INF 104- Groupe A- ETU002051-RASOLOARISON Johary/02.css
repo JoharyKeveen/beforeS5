@@ -1,0 +1,43 @@
+#header 
+{
+	background-color:brown;
+	height:100px;
+	width: 824px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#nav
+{
+	border: solid black;
+	float:left;
+	width:125px;
+	height:200px;
+	padding-right: 25px;
+}
+#nav2
+{
+	background-color:orange;
+	float:left;
+	width:200px;
+	height:500px;
+	margin-top:50px;
+}
+#content
+{
+	margin-left:175px;
+	margin-right:200px;
+}
+#footer
+{
+	background-color:rgb(84, 13, 216);
+	height: 50px;
+	text-align: center;
+}
+#page{
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+}
+th{
+	width: 150px;
+}

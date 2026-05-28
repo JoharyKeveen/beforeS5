@@ -1,0 +1,3 @@
+
+
+view service_post_requise : post_service et post afficher colomn : id_service, id_post, nom, salaire 

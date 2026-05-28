@@ -1,0 +1,209 @@
+*{
+    font-family: Open sans;
+}
+
+* a{
+    text-decoration: none;
+
+    color: black;
+
+    padding: 0px 10px 0px 10px;
+}
+
+body{
+    margin: 0;
+}
+
+.prix{
+    color: black;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li{
+    overflow: hidden;
+
+    display: inline-block;
+}
+
+header ul{
+    margin: 0px;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.phone-number{
+    margin-right: 50px;
+
+    display: flex;
+    align-items: center;
+}
+
+.phone-number p{
+    margin: 0;
+}
+
+/*---------------------Content - Nav - Dropdown--------------------*/
+.content{
+    display: flex;
+    align-items: flex-start;
+}
+
+#dropdown-button{
+    background-color: rgb(112 213 112);
+
+    text-align: left;
+    font-size: 18px;
+
+    color: white;
+
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    width: 200px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+    margin-left: 10px;
+}
+
+.dropdown-content{
+    display: none;
+
+    position: absolute;
+
+    background-color: white;
+
+    min-width: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 1px 3px rgba(0,0,0,0.2);
+
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+
+    border-top: 1px solid rgba(128, 128, 128, 0.2);
+
+    padding: 12px 16px;
+
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: #f1f1ff;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/*----------Content-in-Content------------------*/
+.content-in-content{
+    margin-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.text-category-specifier{
+    background-color: rgba(169, 169, 169, 0.2);
+
+    border-radius: 2px;
+
+    padding: 4px 20px 4px 5px;
+
+    display: inline-block;
+}
+
+.category-specifier p{
+    font-size: 80%;
+
+    margin: 0;
+
+    padding-bottom: 4px;
+}
+
+.category-specifier h4{
+    margin: 0;
+
+    padding-bottom: 15px;
+}
+
+.produit-grid{
+    margin-top: 20px;
+
+    display: flex;
+
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-gap: 20px;
+    justify-content: start;
+
+    flex-wrap: wrap;
+
+    background-color: rgba(175, 175, 175, 0.316);
+
+    padding: 10px;
+}
+
+.product{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: flex-end;
+
+    text-align: center;
+
+    border-radius: 10px;
+    
+
+    padding: 5px;
+
+    background-color: white;
+
+    box-shadow: 0px 7px 3px 4px rgba(181, 181, 181, 0.378);
+
+    color: green;
+}
+
+
+.product .product-content{
+    margin-bottom: auto;
+}
+
+.product figcaption{
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.ajouter-panier{
+    border-style: none;
+    border-radius: 3px;
+
+    background-image: linear-gradient(90deg, rgb(28, 73, 255), rgb(66, 211, 208));
+
+    padding: 10px 10px 10px 10px;
+
+    cursor: pointer;
+
+    text-transform: uppercase;
+
+    font-weight: bold;
+    color: white;
+}

@@ -1,0 +1,4 @@
+RACE    NOM    AGE    
+saka    minou    5    
+doberman    bolt    3    
+sphynx    king    2    

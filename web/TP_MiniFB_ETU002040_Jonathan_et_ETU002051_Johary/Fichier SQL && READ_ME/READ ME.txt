@@ -1,0 +1,10 @@
+Mini-Réseau fait par Johary ETU002051 et Jonathan ETU002040
+Pour se connecter:
+Email=jp@gmail.com
+Mdp=00j00p00
+Ou creer votre compte
+LOrsau'on clique sur le nombre de reaction, on se dirige vers une autre page qui affiche les differents reactions de la publication
+Dans MyProfile si on clique 'choisir un fichier', on peut choisir une photo dans le dossier picture aui mettra a jour la photo de profile
+Dans la barre de recherche il ya un filtre qui vous laissera choisir mais non obligatoire donc cela afficherait tout
+DAns la publication tout fonctionne comme dans facebook
+Dans la barre de navigation vous verrez HOme;Les membres et amities;MyProfile

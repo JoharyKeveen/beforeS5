@@ -1,0 +1,18 @@
+<?php
+    session_start();
+    if(isset($_SESSION['count'])==false)
+    {
+        $_SESSION['count']=0;
+        $_SESSION['res']=array();
+    }
+    $indice=$_GET['indice'];
+include('data/data.php');
+    $tab=$_SESSION['res'];
+    $tab[$_SESSION['count']]['nombre_personne']=$_GET['nb_pers'];
+    $tab[$_SESSION['count']]['nom']=$result[$indice]['nom'];
+    $tab[$_SESSION['count']]['date_A']=$_GET['date_A'];
+    $tab[$_SESSION['count']]['date_D']=$_GET['date_D'];
+    $_SESSION['count']++;
+    $_SESSION['res']=$tab;
+    header('location:nos_reservation.php');
+?>

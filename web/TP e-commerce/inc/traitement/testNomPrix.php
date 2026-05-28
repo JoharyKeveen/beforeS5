@@ -1,0 +1,21 @@
+<?php
+    include('../function/function.php');
+    $test=est_vide($_POST['nom'],$_POST['prix']);
+    if($_POST['dispo']==true)
+    {
+        $dispo='oui';
+    }
+    else
+    {
+        $dispo='non';
+    }
+
+    if($test==true)
+    {
+        header("location:../../pages/modif_prod.php?id=".$_POST['id']."&&nom=".$_POST['nom']."&&marque=".$_POST['marque']."&&dispo=".$dispo."&&prix=".$_POST['prix']."");
+    }
+    else
+    {
+        header("location:modif_prodd.php?id=".$_POST['id']."&&nom=".$_POST['nom']."&&marque=".$_POST['marque']."&&dispo=".$dispo."&&prix=".$_POST['prix']."");
+    }
+?>

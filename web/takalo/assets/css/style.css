@@ -1,0 +1,23 @@
+.icon{
+    font-size: 50px;
+    color: rgb(255, 153, 0);
+    float: left;
+    margin-left: -100px;
+    margin-top: 15px;
+}
+
+.container ul{
+    margin-left: 100px;
+} 
+
+.container li{
+    padding: 7px;
+}
+
+#fil_dacc{
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+}

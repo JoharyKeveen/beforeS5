@@ -1,0 +1,194 @@
+<?php
+    $tab[0][0]=array(
+    'nom'=>'Organic-Apples',
+    'etat'=>'sale',
+    'prix'=>'17.00',
+    'image'=>'sary/Veg_fruits/apples.png',
+    );
+    $tab[0][1]=array(
+        'nom'=>'Organic_Banana',
+        'etat'=>'#',
+        'prix'=>'7.00',
+        'image'=>'sary/Veg_fruits/banana.png',
+        );
+        $tab[0][2]=array(
+            'nom'=>'Organic_Broccoli',
+            'etat'=>'#',
+            'prix'=>'10.00',
+            'image'=>'sary/Veg_fruits/broccoli.png',
+            );
+            $tab[0][3]=array(
+                'nom'=>'Organic_Capsium',
+                'etat'=>'#',
+                'prix'=>'5.00',
+                'image'=>'sary/Veg_fruits/capsium.png',
+                );
+                $tab[0][4]=array(
+                    'nom'=>'Organic_Cheeries',
+                    'etat'=>'#',
+                    'prix'=>'12.00',
+                    'image'=>'sary/Veg_fruits/cheeries.png',
+                    );
+                    $tab[0][5]=array(
+                        'nom'=>'Organic_Corn',
+                        'etat'=>'#',
+                        'prix'=>'9.00',
+                        'image'=>'sary/Veg_fruits/corn.png',
+                        );
+                        $tab[0][6]=array(
+                            'nom'=>'Organic_Grapes',
+                            'etat'=>'#',
+                            'prix'=>'27.00',
+                            'image'=>'sary/Veg_fruits/grapes.png',
+                            );
+                            $tab[0][7]=array(
+                                'nom'=>'Organic_Green_Chillies',
+                                'etat'=>'#',
+                                'prix'=>'10.00',
+                                'image'=>'sary/Veg_fruits/Green_Chillies.png',
+                                );
+                                $tab[0][8]=array(
+                                    'nom'=>'Organic_Lettuce',
+                                    'etat'=>'#',
+                                    'prix'=>'9.00',
+                                    'image'=>'sary/Veg_fruits/lettuce.png',
+                                    );
+                                    $tab[0][9]=array(
+                                        'nom'=>'Organic_Peas',
+                                        'etat'=>'#',
+                                        'prix'=>'17.00',
+                                        'image'=>'sary/Veg_fruits/peas.png',
+                                        );
+                                        $tab[0][10]=array(
+                                            'nom'=>'Organic_Potatoes',
+                                            'etat'=>'#',
+                                            'prix'=>'15.00',
+                                            'image'=>'sary/Veg_fruits/potatoes.png',
+                                            );
+                                            $tab[0][11]=array(
+                                                'nom'=>'Organic_Tomatoes',
+                                                'etat'=>'sale',
+                                                'prix'=>'14.00',
+                                                'image'=>'sary/Veg_fruits/tomatoes.png',
+                                                );
+    $tab[1][0]=array(
+    'nom'=>'Coca-Cola',
+    'etat'=>'#',
+    'prix'=>'17.00',
+    'image'=>'sary/beverage/coca.png',
+    );
+    $tab[1][1]=array(
+        'nom'=>'Ice-Tea',
+        'etat'=>'#',
+        'prix'=>'14.00',
+        'image'=>'sary/beverage/ice_tea.png',
+        );
+        $tab[1][2]=array(
+            'nom'=>'Water',
+            'etat'=>'#',
+            'prix'=>'10.00',
+            'image'=>'sary/beverage/water.png',
+            );
+            $tab[1][3]=array(
+                'nom'=>'Jack Daniels',
+                'etat'=>'sale',
+                'prix'=>'33.00',
+                'image'=>'sary/beverage/whisky.png',
+            );
+    $tab[2][0]=array(
+    'nom'=>'Fresh cream',
+    'etat'=>'sale',
+    'prix'=>'9.00',
+    'image'=>'sary/dairy/creme.jpeg',
+    );
+    $tab[2][1]=array(
+        'nom'=>'Milk',
+        'etat'=>'#',
+        'prix'=>'20.00',
+        'image'=>'sary/dairy/lait.jpeg',
+        );
+        $tab[2][2]=array(
+            'nom'=>'Menestrel',
+            'etat'=>'#',
+            'prix'=>'10.00',
+            'image'=>'sary/dairy/menestrel.jpeg',
+            );
+            $tab[2][3]=array(
+                'nom'=>'Reblochon',
+                'etat'=>'sale',
+                'prix'=>'12.00',
+                'image'=>'sary/dairy/reblochon.jpeg',
+                );
+                $tab[2][4]=array(
+                    'nom'=>'Yaourt',
+                    'etat'=>'#',
+                    'prix'=>'5.00',
+                    'image'=>'sary/dairy/yaourt.jpeg',
+                    );
+    $tab[3][0]=array(
+    'nom'=>'Almond',
+    'etat'=>'#',
+    'prix'=>'9.00',
+    'image'=>'sary/foodgrain and oil/amande.png',
+    );
+    $tab[3][1]=array(
+        'nom'=>'Basmati',
+        'etat'=>'#',
+        'prix'=>'10.00',
+        'image'=>'sary/foodgrain and oil/basmati.png',
+        );
+        $tab[3][2]=array(
+            'nom'=>'Olive oil',
+            'etat'=>'#',
+            'prix'=>'10.00',
+            'image'=>'sary/foodgrain and oil/huileOlive.png',
+            );
+            $tab[3][3]=array(
+                'nom'=>'Sunflower oil',
+                'etat'=>'sale',
+                'prix'=>'10.00',
+                'image'=>'sary/foodgrain and oil/huiletournesol.png',
+                );
+                $tab[3][4]=array(
+                    'nom'=>'Cashew nuts',
+                    'etat'=>'#',
+                    'prix'=>'15.00',
+                    'image'=>'sary/foodgrain and oil/noixDeCajou.png',
+                    );
+    $tab[4][0]=array(
+    'nom'=>'Axe deodorant',
+    'etat'=>'#',
+    'prix'=>'19.00',
+    'image'=>'sary/personnalCare/deoAxe.jpeg',
+    );
+    $tab[4][1]=array(
+        'nom'=>'Tissue',
+        'etat'=>'#',
+        'prix'=>'4.00',
+        'image'=>'sary/personnalCare/mouchoir.jpeg',
+        );
+        $tab[4][2]=array(
+            'nom'=>'Nosy soap',
+            'etat'=>'#',
+            'prix'=>'10.00',
+            'image'=>'sary/personnalCare/savonNosy.jpeg',
+            );
+    $tab[5][0]=array(
+    'nom'=>'Anti flea',
+    'etat'=>'#',
+    'prix'=>'19.00',
+    'image'=>'sary/pet care/antipuce.jpeg',
+    );
+    $tab[5][1]=array(
+        'nom'=>'Dental',
+        'etat'=>'#',
+        'prix'=>'13.00',
+        'image'=>'sary/pet care/dental.jpeg',
+        );
+        $tab[5][2]=array(
+            'nom'=>'Dog food',
+            'etat'=>'#',
+            'prix'=>'20.00',
+            'image'=>'sary/pet care/dogfood.jpeg',
+            );
+?>

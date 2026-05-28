@@ -1,0 +1,14 @@
+<?php
+    session_start();
+    include('../function/function.php');
+    $email=$_POST['email'];
+    $password=$_POST['password'];
+    if(check_login($email,$password)==true)
+    {
+        header("location:../../pages/acceuil.php");
+    }
+    else
+    {
+        header("location:../../index.php?error=404");
+    }
+?>

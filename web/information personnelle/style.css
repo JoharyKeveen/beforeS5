@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-image: url("fond TP/IMG_20211112_091129.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-size: 20px;
+}
+#voalohany{
+    border-radius: 50px;
+   background-image: url("fond TP/IMG_20211112_091212.jpg");
+   background-size: 100%;
+    background-repeat: no-repeat;
+   background-position: center;
+   width: 600px;
+   margin-left: 350px;
+   margin-right: 300px;
+   margin-top: 150px;
+   height: 300px;
+   color: white;
+}
+#faharoa{
+    border-radius: 50px;
+   background-image: url("fond TP/IMG_20211112_091212.jpg");
+   background-size: 100%;
+    background-repeat: no-repeat;
+   background-position: center;
+   width: 600px;
+   margin-left: 350px;
+   margin-right: 300px;
+   margin-top: 150px;
+   height: 300px;
+   color: white;
+}
+button{
+    width: 200px;
+    border-radius: 50px;
+    background: linear-gradient(to right,cyan,white,cyan);
+}#entete{
+    font-style: italic;
+    background: linear-gradient(to right,cyan,white,cyan);
+    height: 50px;
+}

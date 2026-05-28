@@ -1,0 +1,97 @@
+Manana employee manana specialite
+
+Rehefa hanao vidange dia efa fantatra mialoha fa mila mecanicien ampiasa pendant 1h, mpanadio 30 minutes
+ohatrinona ny masonkarena en terme ana salaire par rapport ana vidange iray
+
+modifications:
+
+NOMENTSOA
+Cote BDD
+
+Creation table
+
+table Emploi:
+
+id serial primary key
+nom varchar(40)
+salairemensuel real
+debutdureesalaire date
+findureesalaire date
+
+table service
+id serial
+nom varchar(40)
+montant real
+
+table Employee_Service
+EmployeeId int (foreign key Employee)
+ServiceId int (foreign key Service)
+dureeminuteemployee real 
+
+donnees de test:
+
+insert into service(nom,montant) values ('vidange',5000);
+insert into service(nom,montant) values ('reparation moteur',50000);
+insert into service(nom,montant) values ('reparation pneu',15000);
+
+insert into emploi(nom,salairemensuel,debutdureesalaire,findureesalaire) values ('meca1',100000,'2022-01-01','2022-01-02');
+insert into emploi(nom,salairemensuel,debutdureesalaire,findureesalaire) values ('meca2',200000,'2022-01-01','2022-01-02');
+insert into emploi(nom,salairemensuel,debutdureesalaire,findureesalaire) values ('meca3',300000,'2022-01-01','2022-01-02');
+
+insert into employee_service(employeeid,serviceid,dureeminuteemployee) values (1,1,60);
+insert into employee_service(employeeid,serviceid,dureeminuteemployee) values (2,1,30);
+insert into employee_service(employeeid,serviceid,dureeminuteemployee) values (3,1,40);
+
+Modification table Employee: 
+Ajouter champ idemploi (foreign key Emploi)
+
+Creation vue:
+
+vue1:
+tables a utiliser: employee,emploi
+vue qui retourne le salairemensuel where idemployee=?
+
+vue2:
+tables a utiliser: 
+vue qui retourne tous les employees via idservice=?
+
+COTE BACK
+
+JOHARY
+creation classe
+ 
+Classe Service
+id int
+nom String
+montant double
+
+getters,setters,constructeur vide, constructeur(nom,montant)
+
+Classe EmploieeService:
+EmployeeId int
+ServiceId int
+dureeminuteEmployee double
+
+getters, setters, constructeur vide, constructeur(EmployeeId,ServiceId,dureeminuteemployee)
+
+Classe Emploi:
+id int
+nom String
+salairemensuel double
+debutdureesalaire date
+findureesalaire date
+
+getters, setters, constructeur vide, constructeur(id,nom,salairemensuel,debutdureesalaire,findureesalaire)
+
+TOAVINA
+Fonctions
+
+fonction ArrayList<EmployeeService> getEmploieeService(int idservice)
+tu utilises la vue vue2
+
+fonction double calculPrix(int idservice)
+tu appelles getEmploieeService(idservice)
+tu utilises les employees que t'as obtenu via getEmploieeService et tu appelles la vue vue1 pour savoir chaque salairemensuel
+tu converti le salaire mensuel par chaque employee en minute, tu multiplie par chaque dureeminuteemployee
+et tu sommes
+

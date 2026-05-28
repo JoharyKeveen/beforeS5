@@ -1,0 +1,13 @@
+<?php
+    include('../function/function.php');
+    if($_POST['dispo']==true)
+    {
+        $dispo='oui';
+    }
+    else
+    {
+        $dispo='non';
+    }
+    ajout_prod($_POST['nom'],$_POST['marque'],$dispo,$_POST['prix']);
+    header('location:../../index.php');
+?>

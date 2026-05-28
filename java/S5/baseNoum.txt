@@ -1,0 +1,69 @@
+create table genre(
+id serial primary key,
+nom varchar(40)
+);
+
+create table diplome(
+id serial primary key,
+nom varchar	
+);
+
+create table specialite(
+id SERIAL PRIMARY KEY,
+nom VARCHAR
+);
+
+create table employe(
+id SERIAL PRIMARY KEY,
+nom VARCHAR(40),
+prenom VARCHAR(40),
+idgenre INT constraint FK_idgenre references genre,
+date_naissance DATE,
+iddiplome INT constraint FK_iddiplome references diplome
+);
+
+create table lienspecialiteemploye(
+idemploye INT constraint FK_idemploye references employe,
+idspecialite INT constraint FK_idspecialite references specialite
+);
+
+insert into public.genre values(1,'homme');
+insert into public.genre values(2,'femme');
+
+
+insert into public.diplome(nom) values('BACC');
+insert into public.diplome(nom) values('License');
+insert into public.diplome(nom) values('Master');
+
+insert into public.specialite(nom) values('Mecanicien');
+insert into public.specialite(nom) values('Mecanicien pro');
+insert into public.specialite(nom) values('Mecanicien medium');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+garage: vidange
+    -> meca 1h
+    -> mpanadio 30min
+
+dentiste: manampina nify
+    -> dentiste junior 2h
+    -> assistant 3h
+
+imprimerie: affiche
+    -> machiniste 2* 1h
+    -> mpanapaka taratasy 30min
+
+=> ohatrinona masokarena

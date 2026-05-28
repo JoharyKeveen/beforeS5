@@ -1,0 +1,106 @@
+#include "stdio.h"
+#include "stdlib.h"
+#include "string.h"
+
+int main( )
+{
+int comparchaine(char* chaine1, char* chaine2);
+      char chaine1[ ]={'S' , 'A', 'L', 'U', 'T','\0'}; 
+      char chaine2[6];
+               chaine2[0]='s';
+	        chaine2[1]='a';
+	        chaine2[2]='l';
+	        chaine2[3]='u';
+	        chaine2[4]='t';
+	        chaine2[5]='\0';
+
+	printf("1/La premiere chaine de caracteres :%s\n ", chaine1);
+
+       printf("La deuxieme chaine de caracteres :%s\n ", chaine2);
+
+	if(strcmp(chaine1, chaine2)==0)
+	{
+		printf("Les deux chaines sont egales; \n");
+	}
+
+	else 
+	{
+		printf("Les deux chaines ne sont pas egales. \n");
+	}
+
+char* chiffreavadika(int chiffre, char* anarana);
+	int chiffre=2000;
+	char anarana[]="Roa arivo";
+    {
+	printf("2/Le chiffre %d  devient %s\n", chiffre, anarana);
+    }
+
+int lettrenbr(char lettre);
+	char lettre='A';
+         {
+          printf("3/%d\n", lettre);
+	  }
+       char lettre1='A';
+        {
+          printf("4/%c\n", lettre);
+        }
+
+int longchaine(char* chaine ,int  longueurchaine);
+	char chaine[]="Salut";
+	int  longueurchaine=0;
+
+	 longueurchaine= strlen(chaine);
+	
+      {
+	printf("5/La chaine %s fait %d caracteres de long \n", chaine,  longueurchaine);
+      }
+
+char* copychaine(char* chaineh, char* copie);
+	char chaineh[]={'B', 'o', 'n', 'j', 'o', 'u', 'r', '\0'};
+	char copie[100]={0};
+
+	strcpy(copie, chaineh);
+
+     {
+	printf("6/chaine vaut :%s\n", chaineh);
+	printf("copie vaut :%s\n", copie);
+     }
+
+char* concatenerchaine(char* chaineh1, char* chaineh2);
+	char chaineh1[100]={'S', 'a' ,'l', 'u', 't', ' '};
+	char chaineh2[]={'L', 'a' , 'r', 'a', '\0'};
+
+	strcat(chaineh1, chaineh2);
+
+      {
+	printf("7/chaineh1 vaut : %s\n", chaineh1);
+	printf("chaineh2 vaut toujours : %s\n", chaineh2);
+      }
+
+char* recherchecaract(char* str, char caractrechercher);
+	char str[]="Bonjour Lara";
+	char *tohinystr=NULL;
+ 
+	tohinystr= strchr(str, 'j');
+	if(tohinystr != NULL)
+	{
+	     printf("8/La fin de la chaine a partir du premier j est : %s\n", tohinystr);
+	}
+     
+      char strh[]="Bonjour Lara";
+	char *tohinystrh=NULL;
+ 
+	tohinystrh= strrchr(strh, 'o');
+	if(tohinystrh != NULL)
+	{
+	     printf("9/La fin de la chaine a partir du dernier o est : %s\n", tohinystrh);
+	}
+
+
+
+
+
+	return 0;
+}
+
+

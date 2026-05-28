@@ -1,0 +1,46 @@
+#suggest{
+    border: solid;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    color: yellow;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: grey;
+}
+button{
+    border-radius: 20px;
+    border-color: none;
+}
+legend{
+    font-size: x-large;
+}
+#member{
+    font-size: larger;
+    color: rgb(230, 230, 0);
+}
+#all{
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+fieldset button{
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+#vert{
+    background-color: green;
+}
+#rouge{
+    background-color: red;
+}
+#bleu{
+    background-color: rgb(67, 67, 227);
+}

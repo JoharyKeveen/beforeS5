@@ -1,0 +1,47 @@
+#header{
+    background-color: blueviolet;
+    height: 80px;
+    text-align: center;
+    
+}
+#PUB{
+    float: right;
+    height: 400px;
+
+}
+#pub{
+    background-image: url("bandai.png");
+    background-position: center;
+    height: 100px;
+    width: 150px;
+}
+#pub2{
+    background-image: url("images.png");
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
+#pub3{
+    background-image: url("images.jpeg");
+    background-position: center;
+    height: 200px;
+    width: 150px;
+}
+#contente{
+    
+    background-color: white;
+    height: 600px;
+    margin-right:170px;
+    
+}
+#footer{
+    background-color: greenyellow;
+    height: 70px;
+    padding-right:50%;
+}
+body{
+    background-image: url("bg.jpg");
+}
+p{
+    font-size: 20px;
+}

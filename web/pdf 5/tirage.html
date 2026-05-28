@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIRAGE!!!!!!!!!!!!!!!</title>
+    <style>
+    
+        .loto{
+              font-family: Arial, serif;
+              display: inline-block;
+              height:1.54em;
+              width:1.54em;
+              margin:3px;
+              line-height: 1.54em;
+              text-align: center;
+              text-transform: none;
+              font-style: normal;
+              /*font-weight: bold;*/
+              border-radius: 50%;
+              color:white;
+              position: relative;
+              cursor:pointer;
+          
+              transform-origin: center center;
+              transition: transform 0.15s linear;
+              vertical-align: middle;
+              font-size:2.5em;
+          }
+        </style>
+        
+</head>
+<body>
+    <h1>PDF 5</h1>
+    <div>
+        <button onclick="generation()">Generer</button>
+    </div>
+    <p>
+
+    </p>
+
+    <script>
+        function generation()
+        {
+            const p = document.querySelector('p');
+            while (p.firstChild)
+            {
+                p.removeChild(p.firstChild);
+            }
+            const nom=localStorage.getItem('name');
+            var tb=[];
+            tb.push(nom);
+            for(var i=0;i<6;i++)
+            {
+                const listSpan = document.createElement('span');
+                listSpan.setAttribute('class','loto');
+                var v=Math.floor(Math.random()*36);  
+                if(v%2==0)
+                {
+                    listSpan.style="box-shadow: -0.5em -0.5em 2em -1em #000 inset, 0.5em 0.5em 2em -1em red inset";
+                }
+                else
+                {
+                    listSpan.style="box-shadow: -0.5em -0.5em 2em -1em #000 inset, 0.5em 0.5em 2em -1em blue inset";
+                }
+                listSpan.innerHTML=v;  
+                tb.push(v);
+                p.appendChild(listSpan);
+            }
+                localStorage.setItem('result',tb);
+
+
+            // const n1=document.getElementById('n1');
+            // const n2=document.getElementById('n2');
+            // const n3=document.getElementById('n3');
+            // const n4=document.getElementById('n4');
+            // const n5=document.getElementById('n5');
+            // const n6=document.getElementById('n6');
+
+            // var v1=Math.floor(Math.random()*36);
+            // var v2=Math.floor(Math.random()*36);
+            // var v3=Math.floor(Math.random()*36);
+            // var v4=Math.floor(Math.random()*36);
+            // var v5=Math.floor(Math.random()*36);
+            // var v6=Math.floor(Math.random()*36);
+
+            // n1.setAttribute('class','loto');
+            // n1.innerHTML=v1;
+            // n2.setAttribute('class','loto');
+            // n2.innerHTML=v2;
+            // n3.setAttribute('class','loto');
+            // n3.innerHTML=v3;
+            // n4.setAttribute('class','loto');
+            // n4.innerHTML=v4;
+            // n5.setAttribute('class','loto');
+            // n5.innerHTML=v5;
+            // n6.setAttribute('class','loto1');
+            // n6.innerHTML=v6;
+
+            // var tab = Array(localStorage.getItem('name'),v1,v2,v3,v4,v5,v6);
+            // localStorage.setItem('result',JSON.stringify(tab));
+        }
+    </script>
+</body>
+</html>

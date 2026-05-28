@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage</title>
+    <style>
+     
+    </style>
+  </head>
+  <body>
+
+    <h1>Contenu Localstorage</h1>
+
+    <div>
+      <button>Afficher le contenu de Localstorage</button>
+    </div>
+
+    <p id="nombre">    </p>
+
+    <p><a href="storage.html">retour</a></p>
+    <script>
+
+      const button=document.querySelector('button');
+      
+      button.addEventListener('click', () => {
+        const myItem = localStorage.getItem('nombre');
+        const pNom = document.getElementById('nombre');
+        pNom.innerHTML=myItem;
+
+
+        var prenoms = JSON.parse(localStorage.getItem('prenoms'));
+
+        for (i = 0; i < prenoms.length; i++) {
+          console.log(prenoms[i]);                                          
+        }
+      });
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+#essai{
+    border: solid;
+    width: 300px;
+}
+
+.card-body img{
+    width: 350px;
+    height: 300px;
+}
+
+.col-lg-3 {
+    display: inline-table;
+    padding: 20px;
+    margin-left: 75px;
+}
+
+.card-body{
+    background-color: white;
+    border: solid;
+    border-radius: 19px;  
+}
+
+.card-body p{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage</title>
+    <style>
+    
+    .loto{
+          font-family: Arial, serif;
+          display: inline-block;
+          height:1.54em;
+          width:1.54em;
+          margin:3px;
+          line-height: 1.54em;
+          text-align: center;
+          text-transform: none;
+          font-style: normal;
+          /*font-weight: bold;*/
+          border-radius: 50%;
+          color:white;
+          position: relative;
+          box-shadow: -0.5em -0.5em 2em -1em #000 inset, 0.5em 0.5em 2em -1em red inset;
+          cursor:pointer;
+      
+          transform-origin: center center;
+          transition: transform 0.15s linear;
+          vertical-align: middle;
+          font-size:2.5em;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>Localstorage</h1>
+
+    <div>
+      <label for="item">Entrez un nombre :</label>
+      <input type="number" name="item" id="item">
+      <button>Valider</button>
+    </div>
+
+    <p id="nombre"> </p>
+
+    </p>
+
+    <p><a href="contenu.html">Voir le contenu</a></p>
+    <script>
+      var input=document.querySelector('input');
+      const button=document.querySelector('button');
+      const pNombre=document.getElementById('nombre');
+
+      button.addEventListener('click', () => {
+        var myItem = input.value;
+        localStorage.setItem('nombre',myItem);
+        pNombre.setAttribute('class','loto');
+        pNombre.innerHTML=myItem;
+
+        //tableau
+        var prenoms = Array("rakoto", "rabe", "rasoa");
+        localStorage.setItem('prenoms',JSON.stringify(prenoms));
+
+      });
+    </script>
+  </body>
+</html>

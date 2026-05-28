@@ -1,0 +1,9 @@
+<?php
+    include('../function/function.php');
+    $email=$_POST['email'];
+    $nom=$_POST['nom'];
+    $password=$_POST['mdp'];
+    $numero=$_POST['numero'];
+    inscription($email,$nom,$password,$numero);
+    header('location:../../index.php');
+?>

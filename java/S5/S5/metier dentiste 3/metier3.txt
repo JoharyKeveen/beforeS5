@@ -1,0 +1,60 @@
+
+
+class Materiel :
+	attribue : 
+		int id_materiel
+		string nom
+		double prix
+		int nombre
+	
+	fonction 
+		getters & setters
+		double getPrixtotal() -> return prix*nombre
+		static double bienMateriel(Materiel [] materiels) -> return somme prix total materiels
+		static Materiel [] get_materiel_utils(int idService) -> {
+			requete = "select materiel.id_materiel,materiel.nom,materiel.prix,service_materiel.nombre from materiel join service_materiel on materiel.id_materiel = service_materiel.fk_id_materiel where fk_id_service = '"+idService+"'"
+		}
+
+
+class Service 
+	int id
+	string nom
+	time duree
+	
+class Post 
+	int id
+	string nom
+	double salaire
+	
+	fonction
+		static Post [] getpost(int id_service){
+			requete = select post* from post join service_post where service_post.id_service = id_service
+			select an anaty base aminio requete io d miretorina Post []
+		}
+		
+		static double bienSalarial(Post [] posts){
+			return somme salaire ao @ posts
+		}
+	
+
+class Service_complet
+	attribue
+		Service service
+		Post [] posts
+		Materiel [] materiels		
+	fonction
+		constructor(Service service) {
+			posts = Post.getpost(service.id)
+			materiels = Materiel.get_materiel_utils(service.id)
+		}
+		
+		double prix service() {
+			double mat = Materiel.bienMateriel(materiels) + Post.bienSalarial(posts)
+			return mat + mat * 0.2			
+		}
+	
+
+
+
+
+

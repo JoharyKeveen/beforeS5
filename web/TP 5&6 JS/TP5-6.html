@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 5/6</title>
+    <style>
+      li {
+        margin-bottom: 10px;
+        list-style: none;
+      }
+
+      li button {
+        font-size: 12px;
+        margin-left: 20px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>TP 5</h1>
+
+    <div>
+      <select name="biby" id="biby">
+        <option value="img/alika.jpg">alika</option>
+        <option value="img/saka.jpg">saka</option>
+        <option value="img/vorona.jpg">vorona</option>
+      </select>
+      <button>Add item</button>
+    </div>
+    <ul>
+    </ul>
+
+    <h1>TP 6</h1>
+
+
+    <script>
+      const list = document.querySelector('ul');
+      const input = document.querySelector('select');
+      const button = document.querySelector('button');
+
+      button.addEventListener('click', () => {
+        const myItem = input.value;
+        while (list.firstChild)
+        {
+          list.removeChild(list.firstChild);
+        }
+
+        const listItem = document.createElement('li');
+        const listImg = document.createElement('img');
+
+        listItem.appendChild(listImg);
+        listImg.src = myItem;
+        listImg.style= "width:700px";
+        list.appendChild(listItem);
+
+        input.focus();
+      });
+    </script>
+  </body>
+</html>

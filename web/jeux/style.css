@@ -1,0 +1,11 @@
+img{
+    margin-right: 100px;
+}
+span{
+    float: right;
+}
+fieldset{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}

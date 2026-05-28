@@ -1,0 +1,166 @@
+#maintso{
+    border: solid 1px rgb(51, 109, 53);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kely{
+    font-size: small;
+}
+.sm{
+    font-size: smaller;
+    color: rgb(51, 109, 53);
+}
+#but{
+    width: 15%;
+    background-color: black;
+    color: white;
+    margin-left: 85%;
+    height: 1.5em;
+    padding-top: 3px;
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#free{
+    color: rgb(51, 109, 53);
+    text-align: center;
+}
+#free span{
+    color: black;
+}
+footer{
+    text-align: center;
+    height: 2em;
+    padding-top: 1em;
+    background-color: rgb(51, 109, 53);
+    font-size: 90%;
+}
+#lk{
+    display: flex;
+    justify-content: space-between;
+    width: 7em;
+    margin: auto;
+}
+.l{
+    border-radius: 100%;
+    width: 1.5em;
+    border: solid 1px rgb(230, 230, 230);
+    text-align: center;
+}
+hr{
+    background-color: rgb(51, 109, 53);
+    height: 1px;
+}
+#sary2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: auto;
+}
+#sary2 div img{
+    width: 500px;
+}
+#sary21{
+    width: 450px;
+    border: solid 1px rgb(207, 203, 203);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+#sary21 h1{
+    font-size: x-large;
+    margin-top: 35px;
+}
+#anatiny{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+#mamarana{
+    display: flex;
+    justify-content: space-between;
+}
+.tacos{
+    width: 450px;
+    border: solid 1px rgb(207, 203, 203);
+    border-top: none;
+}
+.tacos p{
+    margin-top: 0px;
+}
+#ambony{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: auto;
+}
+#sary3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 950px;
+    margin: auto;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.3em;
+    margin-left: 2em;
+}
+#tapony{
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+#tapony div h1{
+    color: cyan;
+}
+.mk{
+    width: 120px;
+    color: white;
+    font-size: smaller;
+}
+#cop{
+    background-image: url("sary/fond.jpg");
+    width: 1920px;
+    height: 985px;
+}
+#bg{
+    margin-left: 10em;
+    margin-top: 4em;
+    margin-right: 5em;
+}
+#bg h1{
+    font-size: 7em;
+    color: cyan;
+}
+#bg h1 span{
+    color: white;
+}
+#bg p{
+    font-size: large;
+    color: white;
+}
+#bouton{
+    width: 150px;
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 1.2em;
+}
+#lhb{
+    display: flex;
+    justify-content: space-around;
+}
+#bory{
+    margin-top: 21em;
+    margin-right: 34em;
+    background-color: transparent;
+}
